@@ -130,7 +130,7 @@ with tab1:
     </div>
     """, unsafe_allow_html=True)
     try:
-        st.image("distribusi_fitur.png", use_column_width=True)
+        st.image("distribusi_fitur.png", use_container_width=True)
     except:
         st.info("Hubungkan file gambar distribusi awal Anda dengan nama 'distribusi_fitur.png'")
 
@@ -142,7 +142,7 @@ with tab1:
     </div>
     """, unsafe_allow_html=True)
     try:
-        st.image("feature_engineering.png", use_column_width=True)
+        st.image("feature_engineering.png", use_container_width=True)
     except:
         st.info("Hubungkan file gambar korelasi fitur Anda dengan nama 'feature_engineering.png'")
 
@@ -154,7 +154,7 @@ with tab1:
     </div>
     """, unsafe_allow_html=True)
     try:
-        st.image("pca_biplot.png", use_column_width=True)
+        st.image("pca_biplot.png", use_container_width=True)
     except:
         st.info("Hubungkan file gambar biplot PCA Anda dengan nama 'pca_biplot.png'")
 
@@ -166,7 +166,7 @@ with tab1:
     </div>
     """, unsafe_allow_html=True)
     try:
-        st.image("evaluasi_model.png", use_column_width=True)
+        st.image("evaluasi_model.png", )
     except:
         st.info("Hubungkan file bar chart perbandingan kluster Anda dengan nama 'evaluasi_model.png'")
 
@@ -181,7 +181,7 @@ with tab2:
     </div>
     """, unsafe_allow_html=True)
     try:
-        st.image("radar_km_dbscan.png", use_column_width=True)
+        st.image("radar_km_dbscan.png", )
     except:
         st.info("Hubungkan file radar chart Anda dengan nama 'radar_km_dbscan.png'")
 
@@ -194,7 +194,7 @@ with tab2:
     </div>
     """, unsafe_allow_html=True)
     try:
-        st.image("cluster_heatmaps_comparison.png", use_column_width=True)
+        st.image("cluster_heatmaps_comparison.png", )
     except:
         st.info("Hubungkan file heatmap komparatif Anda dengan nama 'cluster_heatmaps_comparison.png'")
 
